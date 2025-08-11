@@ -558,10 +558,11 @@ function initLoadingScreen() {
     }, 2000);
 }
 
-// Header scroll effect - REMOVIDO para manter header sempre fixo
+// Header scroll effect - REMOVIDO para manter header sempre fixo e simples
 function initHeaderScrollEffect() {
-    // Header agora permanece sempre fixo no topo
-    // Removido o efeito de mudança baseado no scroll
+    // Header agora permanece sempre fixo no topo com design simples
+    // Sem efeitos de mudança baseados no scroll
+    console.log('Header fixo inicializado');
 }
 
 // Galeria lightbox
